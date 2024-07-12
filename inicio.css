@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+
+    background-color: #2d6369;
+    box-shadow: 0px 3px 10px #24252a;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo img {
+    width: 180px;
+}
+
+.nav-list{
+   
+    width: 70%;
+    margin-right: 50px; 
+}
+
+
+.nav-list ul {
+
+    display: flex;
+    list-style: none;
+    margin-left: -200px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.nav-item {
+
+    margin: 0 15px;
+}
+
+.nav-link {
+
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+
+.em-alta {
+
+    font-size: 25px;
+    text-align: center;
+    color: rgb(216, 161, 11);
+    
+   
+}
+
+div .fire-icon {
+
+    width: 45px;
+}
+
+div .ronaldo {
+
+    border-radius: 7px;
+    margin-left: 860px;
+    width: 990px;
+    margin-top: -365px;
+
+}
+
+div .decisao {
+
+    color: rgb(23, 209, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 260px;
+    font-size: 30px;
+    
+    
+}
+
+div .decisao2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    margin-top: 140px;
+    margin-left: 35px;
+}
+
+hr {
+    
+    border: 0.5px solid ;
+}
+
+.container {
+
+    display: flex;
+    padding: 5px;
+}
+
+.elemento {
+
+    width: 305px;
+    height: 200px;
+    padding: 5px;
+    
+}
+
+.elemento img {
+    border-radius: 5px;
+    
+}
+
+.titulosubnoticias {
+
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noticia1 {
+
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.noticia2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fxb {
+    width: 100%;
+}
+
+.elemento2 {
+    width: 305px;
+    height: 200px;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.horario {
+
+    margin-left: 820px;
+    margin-top: -30px;
+    position: relative;
+    
+}
+
+.horario1 {
+
+    background: linear-gradient(black , red ,  black , white);
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.partebaixo {
+
+    background-color: #2d6369 ;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.img12 {
+
+    width: 40px;
+    margin-top: 40px;
+}
+
+.inicio1 {
+
+    width: 300px;
+    height: 200px;
+
+}
+
+
+
+
+
+.inicio2 {
+
+    width: 300px;
+    height: 200px;
+}
+
+
+.inicio3 {
+
+    width: 300px;
+    height: 200px;
+}
+
+
+.inicio4 {
+
+    width: 300px;
+    height: 200px;
+}
+
+
+.inicio5 {
+
+    width: 300px;
+    height: 200px;
+}
+
+.inicio6 {
+
+    width: 300px;
+    height: 200px;
+}
+
+.inicio7 {
+
+    width: 300px;
+    height: 200px;
+}
+
+.inicio8 {
+
+    width: 300px;
+    height: 200px;
+}
+
+.inicio9 {
+
+    width: 300px;
+    height: 200px;
+}
+
+.inicio10 {
+
+    width: 300px;
+    height: 200px;
+}
+.inicio11 {
+
+    width: 300px;
+    height: 200px;
+}
+
+.maisnoticias1 {
+    padding: 10px;
+}
+
+
+
+/* BOTOES PLAY E PAUSE */
+.btn-play {
+    display: none;
+}
+.btn-play, .btn-pause { 
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+    padding: 3px;
+    border-spacing: 50px;
+    margin-top: 70px;
+    width: 50px;
+    border-radius: 30%;
+    border: 3px solid var(--color-black);
+}
+
